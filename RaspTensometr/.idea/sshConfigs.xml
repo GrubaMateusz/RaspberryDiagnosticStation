@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="192.168.10.50" id="6d03c57e-8a92-4583-b2bc-9a82dbd152b3" port="22" customName="RaspPi" nameFormat="CUSTOM" username="pi">
+        <option name="customName" value="RaspPi" />
+      </sshConfig>
+      <sshConfig authType="PASSWORD" host="192.168.43.213" id="2949ef0d-bb3f-4bc4-b252-06b06d6123be" port="22" customName="RaspPiForTel" nameFormat="CUSTOM" username="pi">
+        <option name="customName" value="RaspPiForTel" />
+      </sshConfig>
+    </configs>
+  </component>
+</project>

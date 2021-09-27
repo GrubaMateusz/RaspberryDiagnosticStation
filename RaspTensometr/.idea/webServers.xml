@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="96f1e0df-9065-4948-a661-2eb0e9adb1bb" name="RaspPi" url="http://192.168.43.213">
+        <fileTransfer rootFolder="/home/pi/Desktop/runOn" accessType="SFTP" host="192.168.10.50" port="22" sshConfigId="6d03c57e-8a92-4583-b2bc-9a82dbd152b3" sshConfig="RaspPi">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="d4a85adf-c2aa-4af8-984d-b35e0bc31c47" name="RaspPiForTel" url="http://192.168.43.212">
+        <fileTransfer rootFolder="/home/pi/Desktop/runOn" accessType="SFTP" host="192.168.43.213" port="22" sshConfigId="2949ef0d-bb3f-4bc4-b252-06b06d6123be" sshConfig="RaspPiForTel">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
